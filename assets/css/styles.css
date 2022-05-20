@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: none;
 }
 h1 {
     color: lightblue;
