@@ -1,4 +1,5 @@
 <?php include("path.php"); ?>
+<?php include('app/database/functions.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,9 +20,7 @@
 <div class="auth-content">
 <form method="post" action="login.php">
 <h2 class="form-title">Login</h2>
-<?php 
-// echo display_error(); 
-?>
+<?php echo display_error(); ?>
 
 <div>
 	<label>Username</label>
