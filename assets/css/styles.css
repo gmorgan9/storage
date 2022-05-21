@@ -25,6 +25,7 @@
     text-decoration: none;
     cursor: pointer;
 }
-#item-one {
+#item-one,
+#item-two {
     border-right: 1px solid white;
 }
