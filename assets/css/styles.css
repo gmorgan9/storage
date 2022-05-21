@@ -38,7 +38,7 @@
     padding-left: 5px;
 }
 .below-nav {
-    position:static;
+    position:relative;
     color: white;
     background-color: rgba(2, 106, 0, 0.589);
     height: 120px;
