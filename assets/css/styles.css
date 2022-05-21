@@ -13,6 +13,7 @@
 }
 .header h1 {
     font-size: 48;
+    font-family: 'Courier New', Courier, monospace;
 }
 .nav-list ul {
     text-align: right !important;
