@@ -119,5 +119,5 @@ header .menu-toggle {
 /* Below Nav */
 .below-nav {
     background-color: var(--hover-color);
-    height: 100px;
+    height: 300px;
 }
