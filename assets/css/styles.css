@@ -10,6 +10,7 @@
 .nav-bar {
     padding-top: 15px;
     padding-left: 15px;
+    font-size: large;
 }
 .nav-list ul {
     text-align: right !important;
