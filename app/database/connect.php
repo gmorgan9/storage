@@ -2,7 +2,7 @@
 
 $host = 'localhost';
 $user = 'root';
-$pass = '';
+$pass = 'Morgan22!';
 $db_name = 'storage';
 
 $conn = new MySQLi($host, $user, $pass, $db_name);
