@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css?v=<?php echo time() ?>">
 
 
-    <title>Document</title>
+    <title>MorganStorage</title>
 </head>
 <body>
     <div class="header">
