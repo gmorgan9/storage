@@ -29,3 +29,7 @@
 #item-two {
     border-right: 1px solid white;
 }
+#item-two,
+#item-three {
+    padding-left: 3px;
+}
