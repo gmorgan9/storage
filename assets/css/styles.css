@@ -46,3 +46,16 @@ header .logo {
   height: inherit;
   margin-left: 2em;
 }
+header .logo-text {
+  margin: 9px;
+  font-family: "Candal", serif;
+}
+header .logo-text span {
+  color: var(--secondary-color);
+}
+header ul {
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
