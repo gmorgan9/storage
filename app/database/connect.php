@@ -7,7 +7,9 @@ $db_name = 'storage';
 
 $conn = new MySQLi($host, $user, $pass, $db_name);
 
-if ($conn->connect_error) {
+if ($conn) {
+    echo "success";
+} else {
     die('Database connection error: ' . $conn->connect_error);
 }
 
