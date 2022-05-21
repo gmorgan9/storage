@@ -17,9 +17,9 @@
             <h1 class="logo-header">MorganStorage</h1>
             <div class="nav-list">
                 <ul>
-                    <li id="item-one" class="nav-list-item"><a class="nav-link" href="">link 1</a></li>
-                    <li id="item-two" class="nav-list-item"><a class="nav-link" href="">link 2</a></li>
-                    <li id="item-three" class="nav-list-item"><a class="nav-link" href="">link 3</a></li>
+                    <li id="item-one" class="nav-list-item"><a class="nav-link" href="/">link 1</a></li>
+                    <li id="item-two" class="nav-list-item"><a class="nav-link" href="login.php">link 2</a></li>
+                    <li id="item-three" class="nav-list-item"><a class="nav-link" href="register.php">link 3</a></li>
                 </ul>
             </div>
         </nav>
