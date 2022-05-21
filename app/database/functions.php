@@ -54,7 +54,7 @@ function register(){
 			header('location: profileinfo.php');
 		}else{
 			$query = "INSERT INTO users (username, email, user_type, password) 
-					  VALUES('$username', '$email', 'user', '$password')";
+					  VALUES('$username', '$email', 'standard', '$password')";
 			mysqli_query($db, $query);
 
 			// get id of the created user
