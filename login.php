@@ -1,22 +1,35 @@
 <?php include("path.php"); ?>
 <?php include('app/database/functions.php'); ?>
+
+<?php
+if (isLoggedIN()) {
+	header('location: /');
+}
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login - MorganStorage</title>
+    <meta name="viewport" content="width=device-width">
+    
+	<!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/fav.png">
 
-    <!-- Custom Styles -->
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css?v=<?php echo time() ?>">
+    <!-- Custome Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css?v=<?php echo time(); ?>">
 
-
-    <title>Login - MorganStorage</title>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+	integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
 </head>
 <body>
 
 <?php include(ROOT_PATH . "/app/includes/header.php") ?>
-
+        
 <div class="auth-content">
 <form method="post" action="login.php">
 <h2 class="form-title">Login</h2>
