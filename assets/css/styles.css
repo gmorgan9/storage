@@ -26,5 +26,8 @@
     cursor: pointer;
 }
 #item-one {
-    border-right: 1 solid white;
+    border-right: 1px solid white;
+}
+.logreg {
+    display: flex;
 }
