@@ -118,6 +118,6 @@ header .menu-toggle {
 }
 /* Below Nav */
 .below-nav {
-    background-color: #a9444283;
+    background-color: var(--hover-color);
     height: 40px;
 }
