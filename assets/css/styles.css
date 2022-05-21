@@ -59,3 +59,7 @@ header ul {
   padding: 0px;
   list-style: none;
 }
+header ul li {
+  float: left;
+  position: relative;
+}
