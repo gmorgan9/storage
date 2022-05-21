@@ -16,13 +16,16 @@
 
 <?php include(ROOT_PATH . "/app/includes/header.php") ?>
 
-<form action="login.php">
+<form action="login.php" method="post">
     <label for="email">Email:</label>
-    <input name="email" type="text">
+    <input name="email" type="text" require><br>
     <label for="username">Username:</label>
-    <input name="username" type="text">
+    <input name="username" type="text" require><br>
     <label for="password">Password:</label>
-    <input name="password" type="password">
+    <input name="password" type="password" require><br>
+    <label for="password2">Confirm Password:</label>
+    <input name="password2" type="password" require><br>
+    <input type="submit">
 </form>
 
 </body>
