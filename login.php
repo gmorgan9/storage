@@ -16,17 +16,27 @@
 
 <?php include(ROOT_PATH . "/app/includes/header.php") ?>
 
-<form action="login.php" method="post">
-    <label for="email">Email:</label>
-    <input name="email" type="text" require><br>
-    <label for="username">Username:</label>
-    <input name="username" type="text" require><br>
-    <label for="password">Password:</label>
-    <input name="password" type="password" require><br>
-    <label for="password2">Confirm Password:</label>
-    <input name="password2" type="password" require><br>
-    <input type="submit">
+<div class="auth-content">
+<form method="post" action="login.php">
+<h2 class="form-title">Login</h2>
+<?php echo display_error(); ?>
+
+<div>
+	<label>Username</label>
+	<input class="text-input" type="text" name="username" >
+</div>
+<div>
+	<label>Password</label>
+	<input class="text-input" type="password" name="password">
+</div>
+<div>
+	<button type="submit" class="log-btn" name="login_btn">Login</button>
+</div>
+<p>
+	Not yet a member? <a href="register.php">Sign up</a>
+</p>
 </form>
+</div>
 
 </body>
 </html>
