@@ -14,7 +14,7 @@ if (isLoggedIN()) {
     <meta name="viewport" content="width=device-width">
     
 	<!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/assets/images/fav.png">
+    <!-- <link rel="icon" type="image/x-icon" href="/assets/images/fav.png"> -->
 
     <!-- Custome Styles -->
     <link rel="stylesheet" href="assets/css/styles.css?v=<?php echo time(); ?>">
