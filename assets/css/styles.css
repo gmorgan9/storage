@@ -16,12 +16,11 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .nav-list ul {
+    display: inline;
     text-align: right !important;
     list-style: none;
-    margin-bottom: -20px;
 }
 .nav-list li {
-    display: inline;
     padding-right: 20px;
 }
 .nav-list a {
