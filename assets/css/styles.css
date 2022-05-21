@@ -18,7 +18,7 @@
 .nav-list ul {
     text-align: right !important;
     list-style: none;
-    /* margin-top: -22.5px; */
+    padding-top: -22.5px;
 }
 .nav-list li {
     display: inline;
