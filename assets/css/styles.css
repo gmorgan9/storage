@@ -2,11 +2,13 @@
     box-sizing: border-box;
     margin: 0;
 }
-.header {
-    color: white;
-    background-color: rgb(0, 57, 106);
-    height: 60px;
+header {
+    background: var(--primary-color);
+    height: 66px;
 }
+header * {
+    color: white;
+  }
 .nav-bar {
     padding-top: 8px;
     padding-left: 15px;

@@ -1,3 +1,4 @@
+<?php include("path.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,19 +13,11 @@
     <title>MorganStorage</title>
 </head>
 <body>
-    <div class="header">
-        <nav class="nav-bar">
-            <h1 class="logo-header">MorganStorage</h1>
-            <div class="nav-list">
-                <ul>
-                    <li id="item-one" class="nav-list-item"><a class="nav-link" href="/">Home</a></li>
-                    <li id="item-two" class="nav-list-item"><a class="nav-link" href="login.php">Login</a></li>
-                    <li id="item-three" class="nav-list-item"><a class="nav-link" href="register.php">Register</a></li>
-                </ul>
-            </div>
-        </nav>
+    
+    <?php include(ROOT_PATH . "/app/includes/header.php") ?>
+
         <div class="below-nav">
-            
+
         </div>
     </div>
     <h2>Another day</h2>
