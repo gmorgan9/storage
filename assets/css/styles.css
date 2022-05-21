@@ -14,6 +14,26 @@
     box-sizing: border-box;
     margin: 0;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Candal", serif;
+    color: #5c5b5b;
+    margin: 5px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* NAV */
 header {
     background: var(--primary-color);
     height: 66px;
@@ -21,38 +41,8 @@ header {
 header * {
     color: white;
   }
-.nav-bar {
-    padding-top: 8px;
-    padding-left: 15px;
-}
-.header h1 {
-    font-size: xx-large;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}
-.nav-list ul {
-    display: inline;
-    text-align: right !important;
-    list-style: none;
-}
-.nav-list li {
-    /* padding-right: 20px; */
-}
-.nav-list a {
-    color: rgb(81, 9, 9);
-    text-decoration: none;
-    cursor: pointer;
-}
-#item-one,
-#item-two {
-    border-right: 1px solid white;
-}
-#item-two,
-#item-three {
-    padding-left: 5px;
-}
-.below-nav {
-    position:relative;
-    color: white;
-    background-color: rgba(2, 106, 0, 0.589);
-    height: 120px;
+header .logo {
+  float: left;
+  height: inherit;
+  margin-left: 2em;
 }
