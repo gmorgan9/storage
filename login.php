@@ -12,19 +12,17 @@
     <title>Login - MorganStorage</title>
 </head>
 <body>
-    <div class="header">
-        <nav class="nav-bar">
-            <h1 class="logo-header">MorganStorage</h1>
-            <div class="nav-list">
-                <ul>
-                    <li id="item-one" class="nav-list-item"><a class="nav-link" href="/">Home</a></li>
-                    <li id="item-two" class="nav-list-item"><a class="nav-link" href="login.php">Login</a></li>
-                    <li id="item-three" class="nav-list-item"><a class="nav-link" href="register.php">Register</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    <h2>Login</h2>
+
+<?php include(ROOT_PATH . "/app/includes/header.php") ?>
+
+<form action="login.php">
+    <label for="email">Email:</label>
+    <input name="email" type="text">
+    <label for="username">Username:</label>
+    <input name="username" type="text">
+    <label for="password">Password:</label>
+    <input name="password" type="password">
+</form>
 
 </body>
 </html>
