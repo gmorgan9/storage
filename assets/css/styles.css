@@ -37,3 +37,8 @@
 #item-three {
     padding-left: 5px;
 }
+.below-nav {
+    color: white;
+    background-color: rgba(0, 57, 106, 0.589);
+    height: 60px;
+}

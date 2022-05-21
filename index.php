@@ -23,6 +23,9 @@
                 </ul>
             </div>
         </nav>
+        <div class="below-nav">
+            
+        </div>
     </div>
     <h2>Another day</h2>
 
