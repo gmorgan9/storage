@@ -1,5 +1,4 @@
 <?php include("path.php"); ?>
-<?php include 'filesLogic.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
