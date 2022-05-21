@@ -18,10 +18,8 @@
             <div class="nav-list">
                 <ul>
                     <li id="item-one" class="nav-list-item"><a class="nav-link" href="/">Home</a></li>
-                <div class="logreg">
                     <li id="item-two" class="nav-list-item"><a class="nav-link" href="login.php">Login</a></li>
                     <li id="item-three" class="nav-list-item"><a class="nav-link" href="register.php">Register</a></li>
-                </div>
                 </ul>
             </div>
         </nav>
