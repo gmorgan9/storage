@@ -173,3 +173,13 @@ header .menu-toggle {
 .auth-content form p a {
   text-decoration: underline;
 }
+.log-btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
