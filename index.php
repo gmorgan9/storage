@@ -1,4 +1,5 @@
 <?php include("path.php"); ?>
+<?php include 'filesLogic.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,11 +22,11 @@
 
     
     
-    <form action="upload.php" method="post" enctype="multipart/form-data">
-    Select Image File to Upload:
-    <input type="file" name="file">
-    <input type="submit" name="submit" value="Upload">
-</form>
+    <form action="index.php" method="post" enctype="multipart/form-data" >
+          <h3>Upload File</h3>
+          <input type="file" name="myfile"> <br>
+          <button type="submit" name="save">upload</button>
+    </form>
 
 </body>
 </html>
