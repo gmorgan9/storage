@@ -8,6 +8,7 @@
 	--red-text: #a94442;
 	--green-text: #3c763d;
 	--green-background: #dff0d8;
+    --border-radius:0.25rem;
 }
 * {
     box-sizing: border-box;
@@ -151,10 +152,10 @@ header .menu-toggle {
 /* form */
 main>form {
     margin:1rem auto;
-    border:solid 1px var(--border-color);
+    border:solid 1px var(--hover-color);
     padding:1rem;
     border-radius:var(--border-radius);
-    background-color:var(--form-bg-color)
+    background-color:var(--secondary-color)
 }
 form {
     width:400px;
@@ -164,7 +165,7 @@ form h1 {
     font-size:1.4rem;
     font-weight:400;
     text-align:center;
-    color:var(--text-bright);
+    color:var(--light-text);
 }
 form i {
     margin-left:-30px;
@@ -182,7 +183,7 @@ form>section {
 }
 form>footer {
     text-align:center;
-    border-top:solid 1px var(--input-border-color);
+    border-top:solid 1px var(--hover-color);
     padding:.5rem 0;
     font-size:.8rem;
 }
