@@ -155,7 +155,7 @@ main>form {
     border:solid 1px var(--hover-color);
     padding:1rem;
     border-radius:var(--border-radius);
-    background-color:var(--secondary-color)
+    background-color:var(--hover-color)
 }
 form {
     width:400px;
