@@ -261,7 +261,7 @@ form, .content {
 	margin: 5px;
 }
 .profile_info:after {
-	content: "";
+	/* content: ""; */
 	display: block;
 	clear: both;
 }
