@@ -159,3 +159,33 @@ main>form {
 form {
     width:400px;
 }
+form h1 {
+    padding:5px 0;
+    font-size:1.4rem;
+    font-weight:400;
+    text-align:center;
+    color:var(--text-bright);
+}
+form i {
+    margin-left:-30px;
+    cursor:pointer;
+}
+form p {
+    margin-bottom:.5rem;
+}
+form>section {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:1rem;
+}
+form>footer {
+    text-align:center;
+    border-top:solid 1px var(--input-border-color);
+    padding:.5rem 0;
+    font-size:.8rem;
+}
+form>div {
+    margin-bottom:.75rem;
+}
