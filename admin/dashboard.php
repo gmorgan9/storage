@@ -15,14 +15,14 @@ session_start();
   // }
   ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Home</title>
-	<!-- Favicon -->
-    <!-- <link rel="icon" type="image/x-icon" href="/assets/images/fav.png"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Custome Styles -->
-    <link rel="stylesheet" href="assets/css/styles.css?v=<?php echo time(); ?>">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css?v=<?php echo time() ?>">
 
     <!-- Font Awesome -->
   	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -30,10 +30,12 @@ session_start();
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
+
+    <title>MorganStorage</title>
 </head>
 <body>
 <div class="logreg_header">
-		<h2>Login</h2>
+		<h2>Admin Page</h2>
 	</div>
 	<div class="content">
 		<!-- notification message -->
