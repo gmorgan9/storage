@@ -27,6 +27,10 @@ session_start();
 	</div>
 	<div class="content">
 		<p>Complete homepage</p>
+        <?php if (isAdmin()) {
+                ?>
+        <button class="btn"><a href="admin/dashboard.php" style="text-decoration:none;color:white;">admin</a></button>
+    <?php } else ?>
 	</div>
 </body>
 </html>
