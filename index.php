@@ -48,7 +48,7 @@ session_start();
 					<small>
 						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i> 
 						<br>
-						<button class="btn"><a href="index.php?logout='1'" style="text-decoration:none;color:white;margin-top:2px;m">logout</a></button>
+						<button class="btn" style="margin-top:2px;"><a href="index.php?logout='1'" style="text-decoration:none;color:white;">logout</a></button>
 					</small>
 
 				<?php endif ?>
