@@ -19,7 +19,7 @@
 		<h2>Admin - create user</h2>
 	</div>
 	
-	<form method="post" action="create_user.php">
+	<form method="post" action="create.php">
 
 		<?php // echo display_error(); ?>
 
