@@ -1,6 +1,7 @@
 <?php include("path.php"); ?>
 <?php include('app/database/functions.php'); ?>
 <?php
+session_start()
 // if (isLoggedIN()) {
 // 	header('location: /');
 // }
