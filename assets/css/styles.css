@@ -64,7 +64,7 @@ a {
   clear: both;
 }
 /* NAV */
-header {
+/* header {
     background: var(--primary-color);
     height: 66px;
 }
@@ -145,15 +145,15 @@ header .menu-toggle {
 
 .page-wrapper a:hover {
   color: #006669;
-}
+} */
 /* Below Nav */
-.below-nav {
+/* .below-nav {
     background-color: var(--hover-color);
     height: 300px;
-}
+} */
 
 /* main - heading */
-.main h1,h5 {
+/* .main h1,h5 {
   color: white;
   text-align: center;
 }
@@ -178,7 +178,7 @@ header .menu-toggle {
 }
 .main-content {
   margin-left: 3em;
-} */
+}  */
 /* form */
 
 
