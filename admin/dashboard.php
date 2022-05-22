@@ -61,7 +61,7 @@ if (!isLoggedIn()) {
 						<br>
 						<button class="btn"><a href="../index.php?logout='1'" style="text-decoration:none;color:white;">logout</a></button>
             			<button class="btn"><a href="/" style="text-decoration:none;color:white;">Home</a></button>
-						<button class="btn"><a href="admin/users/create.php" style="text-decoration:none;color:white;">Home</a></button>
+						<button class="btn"><a href="users/create.php" style="text-decoration:none;color:white;">Create</a></button>
 					</small>
 
 				<?php endif ?>
