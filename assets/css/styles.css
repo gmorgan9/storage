@@ -185,7 +185,7 @@ header .menu-toggle {
 	width: 40%;
 	margin: 50px auto 0px;
 	color: white;
-	background: #5F9EA0;
+	background: var(--primary-color);
 	text-align: center;
 	border: 1px solid #B0C4DE;
 	border-bottom: none;
@@ -229,7 +229,7 @@ form, .content {
 	padding: 10px;
 	font-size: 15px;
 	color: white;
-	background: #5F9EA0;
+	background: var(--primary-color);
 	border: none;
 	border-radius: 5px;
 }
