@@ -1,16 +1,17 @@
 <?php include("path.php"); 
 include('../app/database/functions.php');
 session_start();
+
 if (!isLoggedIn()) {
   $_SESSION['msg'] = "You must log in first";
   header('location: login.php');
 }
   // isAdmin();
-  // if (isset($_GET['logout'])) {
-  //   session_destroy();
-  //   unset($_SESSION['user']);
-  //   header("location: ../login.php");
-  // }
+  if (isset($_GET['logout'])) {
+    session_destroy();
+    unset($_SESSION['user']);
+    header("location: ../login.php");
+  }
   ?>
 <!DOCTYPE html>
 <html lang="en">
