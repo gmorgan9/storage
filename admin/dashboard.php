@@ -39,7 +39,7 @@ if (!isLoggedIn()) {
 	<div class="content">
 		<!-- notification message -->
 		<?php if (isset($_SESSION['success'])) : ?>
-			<div class="error success" >
+			<div class="error success">
 				<h3>
 					<?php 
 						echo $_SESSION['success']; 
