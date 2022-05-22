@@ -1,4 +1,4 @@
-<?php include('app/database/functions.php') 
+<?php include('../app/database/functions.php') 
 session_start();?>
 <!DOCTYPE html>
 <html>
@@ -21,7 +21,7 @@ session_start();?>
 	
 	<form method="post" action="create_user.php">
 
-		<?php echo display_error(); ?>
+		<?php // echo display_error(); ?>
 
 		<div class="input-group">
 			<label>Username</label>
