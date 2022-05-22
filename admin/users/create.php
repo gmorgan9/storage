@@ -6,16 +6,16 @@
 	<title>Registration system PHP and MySQL - Create user</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css?v=<?php echo time(); ?>">
 	<style>
-		.header {
+		/* .header {
 			background: #003366;
 		}
 		button[name=register_btn] {
 			background: #003366;
-		}
+		} */
 	</style>
 </head>
 <body>
-	<div class="header">
+	<div class="logreg_header">
 		<h2>Admin - create user</h2>
 	</div>
 	
