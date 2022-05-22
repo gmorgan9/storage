@@ -40,7 +40,7 @@
     --alert-success-bg:#d4edda;
     --alert-info-bg:#d1ecf1
 }
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
 }
@@ -178,7 +178,7 @@ header .menu-toggle {
 }
 .main-content {
   margin-left: 3em;
-}
+} */
 /* form */
 
 
