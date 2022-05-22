@@ -51,7 +51,7 @@ session_start();
 		<?php endif ?>
 		<!-- logged in user information -->
 		<div class="profile_info">
-			<img src="images/user_profile.png"  >
+			<img src="../assets/images/user_profile.png"  >
 
 			<div>
 				<?php  if (isset($_SESSION['user'])) : ?>
