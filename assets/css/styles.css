@@ -181,12 +181,12 @@ header .menu-toggle {
 }
 /* form */
 
-* { margin: 0px; padding: 0px; }
+
 body {
 	font-size: 120%;
 	background: #F8F8FF;
 }
-.header {
+.logreg_header {
 	width: 40%;
 	margin: 50px auto 0px;
 	color: white;
@@ -259,7 +259,6 @@ form, .content {
 	width: 50px; 
 	height: 50px; 
 	margin: 5px;
-	float: left;
 }
 .profile_info div {
 	display: inline-block; 
