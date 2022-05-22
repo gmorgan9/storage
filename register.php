@@ -16,8 +16,7 @@ if (isLoggedIN()) {
     <!-- <link rel="icon" type="image/x-icon" href="/assets/images/fav.png"> -->
 
     <!-- Custome Styles -->
-    <!-- <link rel="stylesheet" href="assets/css/styles.css?v=<?php echo time(); ?>"> -->
-    <link rel="stylesheet" href="https://www.phptutorial.net/app/css/style.css">
+    <link rel="stylesheet" href="assets/css/styles.css?v=<?php echo time(); ?>">
 
     <!-- Font Awesome -->
   	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"

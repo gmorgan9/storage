@@ -9,7 +9,6 @@
 	--green-text: #3c763d;
 	--green-background: #dff0d8;
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -149,37 +148,11 @@ header .menu-toggle {
 .main-content {
   margin-left: 3em;
 }
-/* auth content */
-.auth-content {
-  width: 30%;
-  margin: 50px auto;
-  padding: 20px;
-  background: white;
-  border-radius: 5px;
+/* form */
+main>form {
+    margin:1rem auto;
+    border:solid 1px var(--border-color);
+    padding:1rem;
+    border-radius:var(--border-radius);
+    background-color:var(--form-bg-color)
 }
-
-.auth-content .form-title {
-  text-align: center;
-}
-
-.auth-content form div {
-  margin-bottom: 10px;
-}
-
-.auth-content form p {
-  text-align: center;
-}
-
-.auth-content form p a {
-  text-decoration: underline;
-}
-.log-btn {
-    padding: 10px;
-    font-size: 15px;
-    color: white;
-    background-color: var(--primary-color);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-  }
