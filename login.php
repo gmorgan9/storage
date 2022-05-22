@@ -29,7 +29,8 @@ session_start();
 </head>
 <body>
 
-<?php include(ROOT_PATH . "/app/includes/header.php") ?>
+<?php 
+// include(ROOT_PATH . "/app/includes/header.php") ?>
         
 <div class="logreg_header">
 		<h2>Login</h2>

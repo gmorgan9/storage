@@ -1,12 +1,10 @@
 <?php include("path.php"); 
 include('app/database/functions.php');
 session_start();
-
-
-  // if (!isLoggedIn()) {
-  //   $_SESSION['msg'] = "You must log in first";
-  //   header('location: login.php');
-  // }
+if (!isLoggedIn()) {
+  $_SESSION['msg'] = "You must log in first";
+  header('location: login.php');
+}
   // isAdmin();
   // if (isset($_GET['logout'])) {
   //   session_destroy();
