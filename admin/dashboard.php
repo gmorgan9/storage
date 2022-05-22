@@ -1,12 +1,13 @@
-<?php 
-	include('app/database/functions.php');
+<?php include("path.php"); 
+include('app/database/functions.php');
+session_start();
+
 
   // if (!isLoggedIn()) {
   //   $_SESSION['msg'] = "You must log in first";
   //   header('location: login.php');
   // }
   // isAdmin();
-  session_start();
   // if (isset($_GET['logout'])) {
   //   session_destroy();
   //   unset($_SESSION['user']);
@@ -48,7 +49,7 @@
 		<?php endif ?>
 		<!-- logged in user information -->
 		<div class="profile_info">
-			<img src="images/user_profile.png">
+			<img src="images/user_profile.png"  >
 
 			<div>
 				<?php  if (isset($_SESSION['user'])) : ?>
@@ -57,7 +58,7 @@
 					<small>
 						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i> 
 						<br>
-						<a href="../index.php?logout='1'" style="color: red;">logout</a>
+						<button class="btn"><a href="index.php?logout='1'" style="text-decoration:none;color:white;">logout</a></button>
 					</small>
 
 				<?php endif ?>
