@@ -22,7 +22,7 @@ session_start();
     <title>MorganStorage</title>
 </head>
 <body>
-	<div class="header">
+	<div class="logreg_header">
 		<h2>Home Page</h2>
 	</div>
 	<div class="content">
