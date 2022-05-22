@@ -156,3 +156,6 @@ main>form {
     border-radius:var(--border-radius);
     background-color:var(--form-bg-color)
 }
+form {
+    width:400px;
+}
