@@ -45,7 +45,7 @@ if (isLoggedIN()) {
             <input type="password" name="password" id="password">
         </div>
         <div>
-            <label for="password2">Password Again:</label>
+            <label for="password2">Confirm Password:</label>
             <input type="password" name="password2" id="password2">
         </div>
         <div>
