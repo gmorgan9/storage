@@ -5,6 +5,7 @@
 if (isLoggedIN()) {
 	header('location: /');
 }
+session_start();
 ?>
 
 <!DOCTYPE html>

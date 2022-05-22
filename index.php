@@ -1,5 +1,6 @@
 <?php include("path.php"); 
 include('app/database/functions.php');
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
