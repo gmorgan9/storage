@@ -5,7 +5,7 @@
   //   $_SESSION['msg'] = "You must log in first";
   //   header('location: login.php');
   // }
-  isAdmin();
+  // isAdmin();
   session_start();
   // if (isset($_GET['logout'])) {
   //   session_destroy();
@@ -30,8 +30,8 @@
 			<div class="error success" >
 				<h3>
 					<?php 
-						echo $_SESSION['success']; 
-						unset($_SESSION['success']);
+						// echo $_SESSION['success']; 
+						// unset($_SESSION['success']);
 					?>
 				</h3>
 			</div>
