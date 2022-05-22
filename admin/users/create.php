@@ -4,7 +4,7 @@
 <html>
 <head>
 	<title>Registration system PHP and MySQL - Create user</title>
-	<link rel="stylesheet" type="text/css" href="../assets/css/styles.css?v=<?php echo time(); ?>">
+	<link rel="stylesheet" type="text/css" href="../../assets/css/styles.css?v=<?php echo time(); ?>">
 	<style>
 		/* .header {
 			background: #003366;
