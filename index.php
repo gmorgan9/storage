@@ -27,6 +27,7 @@ session_start();
 	</div>
 	<div class="content">
 		<p>Complete homepage</p>
+        <button class="btn"><a href="../index.php?logout='1'" style="text-decoration:none;color:white;">logout</a></button>
         <?php if (isAdmin()) {
                 ?>
         <button class="btn"><a href="admin/dashboard.php" style="text-decoration:none;color:white;">admin</a></button>
