@@ -29,34 +29,37 @@ if (isLoggedIN()) {
 
 <?php include("app/includes/header.php") ?>
         
-<div class="auth-content">
-<form method="post" action="register.php">
-<h2 class="form-title">Register</h2>
-<?php echo display_error(); ?>
+<main>
+    <form action="register.php" method="post">
+        <h1>Sign Up</h1>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div>
+            <label for="password2">Password Again:</label>
+            <input type="password" name="password2" id="password2">
+        </div>
+        <div>
+            <label for="agree">
+                <input type="checkbox" name="agree" id="agree" value="yes"/> I agree
+                with the
+                <a href="#" title="term of services">term of services</a>
+            </label>
+        </div>
+        <button type="submit">Register</button>
+        <footer>Already a member? <a href="login.php">Login here</a></footer>
+    </form>
+</main>
 
-	<div>
-		<label>Username</label>
-		<input class="text-input" type="text" name="username" value="<?php echo $username; ?>">
-	</div>
-	<div>
-		<label>Email</label>
-		<input class="text-input" type="email" name="email" value="<?php echo $email; ?>">
-	</div>
-	<div>
-		<label>Password</label>
-		<input class="text-input" type="password" name="password_1">
-	</div>
-	<div>
-		<label>Confirm password</label>
-		<input class="text-input" type="password" name="password_2">
-	</div>
-	<div>
-		<button type="submit" class="log-btn" name="register_btn">Register</button>
-	</div>
-	<p>
-		Already a member? <a href="login.php">Sign in</a>
-	</p>
-</form>
-</div>
+
 </body>
 </html>
