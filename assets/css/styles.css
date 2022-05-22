@@ -264,4 +264,5 @@ form, .content {
 	content: "";
 	display: block;
 	/* clear: both; */
+    margin-left: 1px;
 }
