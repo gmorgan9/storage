@@ -263,5 +263,6 @@ form, .content {
 	content: "";
 	display: block;
 	clear: both;
-    margin-left: 10px;
+    position: relative;
+    z-index: 100;
 }
