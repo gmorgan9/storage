@@ -30,27 +30,27 @@ if (isLoggedIN()) {
 
 <?php include(ROOT_PATH . "/app/includes/header.php") ?>
         
-<div class="auth-content">
-<form method="post" action="login.php">
-<h2 class="form-title">Login</h2>
-<?php echo display_error(); ?>
+<div class="logreg_header">
+		<h2>Login</h2>
+	</div>
+	<form method="post" action="login.php">
 
-<div>
-	<label>Username</label>
-	<input class="text-input" type="text" name="username" >
-</div>
-<div>
-	<label>Password</label>
-	<input class="text-input" type="password" name="password">
-</div>
-<div>
-	<button type="submit" class="log-btn" name="login_btn">Login</button>
-</div>
-<p>
-	Not yet a member? <a href="register.php">Sign up</a>
-</p>
-</form>
-</div>
+		<?php echo display_error(); ?>
 
+		<div class="input-group">
+			<label>Username</label>
+			<input type="text" name="username" >
+		</div>
+		<div class="input-group">
+			<label>Password</label>
+			<input type="password" name="password">
+		</div>
+		<div class="input-group">
+			<button type="submit" class="btn" name="login_btn">Login</button>
+		</div>
+		<p>
+			Not yet a member? <a href="register.php">Sign up</a>
+		</p>
+	</form>
 </body>
 </html>

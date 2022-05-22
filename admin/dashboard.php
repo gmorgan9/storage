@@ -1,60 +1,56 @@
-<?php include("../path.php"); ?>
 <?php 
-include(ROOT_PATH . "/app/controllers/posts.php"); 
-session_start();
-adminOnly();
-?>
+	include('app/database/functions.php');
 
+  if (!isLoggedIn()) {
+    $_SESSION['msg'] = "You must log in first";
+    header('location: login.php');
+  }
+  if (isset($_GET['logout'])) {
+    session_destroy();
+    unset($_SESSION['user']);
+    header("location: ../login.php");
+  }
+  ?>
+?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Admin Section - Dashboard</title>
-    <meta name="viewport" content="width=device-width">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/x-icon" href="fav.png">
-
-    <!-- Custom Styling -->
-    <link rel="stylesheet" href="../assets/css/style.css?v=<?php echo time(); ?>">  
-
-    <!-- Admin Styling -->
-    <link rel="stylesheet" href="../assets/css/admin.css?v=<?php echo time(); ?>">
-
-    <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css?v=<?php echo time(); ?>">
 </head>
 <body>
+	<div class="header">
+		<h2>Home Page</h2>
+	</div>
+	<div class="content">
+		<!-- notification message -->
+		<?php if (isset($_SESSION['success'])) : ?>
+			<div class="error success" >
+				<h3>
+					<?php 
+						echo $_SESSION['success']; 
+						unset($_SESSION['success']);
+					?>
+				</h3>
+			</div>
+		<?php endif ?>
+		<!-- logged in user information -->
+		<div class="profile_info">
+			<img src="images/user_profile.png"  >
 
-<?php include(ROOT_PATH . "/app/includes/adminHeader.php"); ?>
+			<div>
+				<?php  if (isset($_SESSION['user'])) : ?>
+					<strong><?php echo $_SESSION['user']['username']; ?></strong>
 
-<!-- Admin Page Wrapper -->
-<div class="admin-wrapper">
+					<small>
+						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i> 
+						<br>
+						<a href="index.php?logout='1'" style="color: red;">logout</a>
+					</small>
 
-<?php include(ROOT_PATH . "/app/includes/adminSidebar.php") ?>
-        
-<!-- Admin Content -->
-<div class="admin-content">
-
-<div class="content">
-
-    <h2 class="page-title">Dashboard</h2>
-
-    <?php include(ROOT_PATH . '/app/includes/messages.php'); ?>
-
-</div>
-
-</div>
-<!-- // Admin Content -->
-
-</div>
-<!-- // Page Wrapper -->
-
-<!-- Custom Script -->
-<script src="../assets/js/scripts.js"></script>
-
+				<?php endif ?>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
