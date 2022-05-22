@@ -31,14 +31,14 @@
 				<h3>
 					<?php 
 						// echo $_SESSION['success']; 
-						// unset($_SESSION['success']);
+						unset($_SESSION['success']);
 					?>
 				</h3>
 			</div>
 		<?php endif ?>
 		<!-- logged in user information -->
 		<div class="profile_info">
-			<img src="images/user_profile.png"  >
+			<img src="images/user_profile.png">
 
 			<div>
 				<?php  if (isset($_SESSION['user'])) : ?>
